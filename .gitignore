@@ -1,4 +1,4 @@
-base/.vs/
+base/.vs/*
 base/Debug
 base/Release
 base/Static-Release
