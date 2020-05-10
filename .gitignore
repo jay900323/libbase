@@ -1,0 +1,6 @@
+base/Debug
+base/Release
+base/Static-Release
+base/ipch
+projects/*
+

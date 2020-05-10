@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{e6a4a1f7-16a5-4618-9a2c-e20be23e6b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdpart">
+      <UniqueIdentifier>{9a66e8e8-c23b-443b-bd22-df05eee93417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdpart\cjson">
+      <UniqueIdentifier>{422b2f38-b227-4059-b8ed-e54f593a6cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{003c8a40-991a-4c06-b099-4f573cded742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdpart\tinyxml2">
+      <UniqueIdentifier>{27baf29a-34b9-42c0-b5e1-512f7c1b9975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minizip">
+      <UniqueIdentifier>{3173d62c-80a6-4547-9cb4-a396c999991a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_file.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_dir.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_time.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_threads.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_thread_mutex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_str.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_proc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_getopt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_md5.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_singleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_base64.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_encoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_except.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_shm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_thread_lock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_http.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_urlparse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_urlencode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdpart\cjson\cJSON.h">
+      <Filter>thirdpart\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_json.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="log\appender.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\appendersfactory.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\factoryparams.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\fileappender.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\rollingfileappender.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\consoleappender.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="log\PThreads.hh">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\MSThreads.hh">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\log_wrapper.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdpart\tinyxml2\tinyxml2.h">
+      <Filter>thirdpart\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zx_zip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip\crypt.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip\ioapi.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip\iowin32.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip\mztools.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip\unzip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip\zip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zx_dir.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_file.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_getopt.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_proc.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_str.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_thread_mutex.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_threads.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_time.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_md5.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_except.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_encoder.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_utils.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_base64.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_shm.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_http.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_urlparse.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_urlencode.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdpart\cjson\cJSON.c">
+      <Filter>thirdpart\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_json.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\appender.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\appendersfactory.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\factoryparams.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\fileappender.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\rollingfileappender.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\consoleappender.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_logger.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\PThreads.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\MSThreads.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log_wrapper.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdpart\tinyxml2\tinyxml2.cpp">
+      <Filter>thirdpart\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_zip.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip\ioapi.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip\iowin32.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip\miniunz.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip\mztools.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip\unzip.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip\zip.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

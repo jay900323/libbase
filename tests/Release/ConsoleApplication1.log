@@ -1,0 +1,12 @@
+﻿  main.cc
+D:\MyProject\base\thirdpart\gtest/gtest.h(1877): warning C4005: “FAIL”: 宏重定义
+  d:\myproject\base\include\zx_base.h(24): note: 参见“FAIL”的前一个定义
+D:\MyProject\base\thirdpart\gtest/gtest.h(1886): warning C4005: “SUCCEED”: 宏重定义
+  d:\myproject\base\include\zx_base.h(23): note: 参见“SUCCEED”的前一个定义
+  正在生成代码
+  1 of 108 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ConsoleApplication1.vcxproj -> D:\MyProject\base\base\Release\testsuite.exe
+  ConsoleApplication1.vcxproj -> D:\MyProject\base\base\Release\testsuite.pdb (Full PDB)
