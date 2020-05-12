@@ -129,12 +129,6 @@
     <ClInclude Include="..\include\zx_logger.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="log\PThreads.hh">
-      <Filter>log</Filter>
-    </ClInclude>
-    <ClInclude Include="log\MSThreads.hh">
-      <Filter>log</Filter>
-    </ClInclude>
     <ClInclude Include="log\log_wrapper.h">
       <Filter>log</Filter>
     </ClInclude>
@@ -161,6 +155,12 @@
     </ClInclude>
     <ClInclude Include="minizip\zip.h">
       <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="log\MSThreads.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log\PThreads.h">
+      <Filter>log</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

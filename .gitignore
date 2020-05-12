@@ -5,3 +5,5 @@ base/Static-Release
 base/ipch
 projects/*
 
+/.vs
+/out/build/x64-Debug

@@ -1,12 +1,44 @@
-﻿  main.cc
-D:\MyProject\base\thirdpart\gtest/gtest.h(1877): warning C4005: “FAIL”: 宏重定义
-  d:\myproject\base\include\zx_base.h(24): note: 参见“FAIL”的前一个定义
-D:\MyProject\base\thirdpart\gtest/gtest.h(1886): warning C4005: “SUCCEED”: 宏重定义
-  d:\myproject\base\include\zx_base.h(23): note: 参见“SUCCEED”的前一个定义
-  正在生成代码
-  1 of 108 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
-  已完成代码的生成
-  ConsoleApplication1.vcxproj -> D:\MyProject\base\base\Release\testsuite.exe
-  ConsoleApplication1.vcxproj -> D:\MyProject\base\base\Release\testsuite.pdb (Full PDB)
+﻿生成启动时间为 2020/5/12 16:20:33。
+     1>项目“H:\libbase\tests\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\testsuite.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /I../thirdpart /I../include /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D BASE_STATIC /D _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\testsuite.pch" /Fo"Release\\" /Fd"Release\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt main.cc
+         main.cc
+     1>H:\libbase\thirdpart\gtest\gtest.h(1877,1): warning C4005:  “FAIL”: 宏重定义
+       H:\libbase\include\zx_base.h(24): message :  参见“FAIL”的前一个定义
+     1>H:\libbase\thirdpart\gtest\gtest.h(1886,1): warning C4005:  “SUCCEED”: 宏重定义
+       H:\libbase\include\zx_base.h(23): message :  参见“SUCCEED”的前一个定义
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"H:\libbase\base\Release\testsuite.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../libs/x86 libbase.lib gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\libbase\base\Release\testsuite.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\libbase\base\Release\testsuite.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\stdafx.obj
+           正在创建库 H:\libbase\base\Release\testsuite.lib 和对象 H:\libbase\base\Release\testsuite.exp
+         正在生成代码
+         60 of 1843 functions ( 3.3%) were compiled, the rest were copied from previous compilation.
+           36 functions were new in current compilation
+           13 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+     1>gtest.lib(gtest-all.obj) : warning LNK4099: 未找到 PDB“gtest.pdb”(使用“gtest.lib(gtest-all.obj)”或在“H:\libbase\base\Release\gtest.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         ConsoleApplication1.vcxproj -> H:\libbase\base\Release\testsuite.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\testsuite.tlog\unsuccessfulbuild”。
+         正在对“Release\testsuite.tlog\testsuite.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\libbase\tests\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+       “H:\libbase\tests\ConsoleApplication1.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         H:\libbase\thirdpart\gtest\gtest.h(1877,1): warning C4005:  “FAIL”: 宏重定义
+         H:\libbase\thirdpart\gtest\gtest.h(1886,1): warning C4005:  “SUCCEED”: 宏重定义
+
+
+       “H:\libbase\tests\ConsoleApplication1.vcxproj”(Build 目标) (1) ->
+       (Link 目标) -> 
+         gtest.lib(gtest-all.obj) : warning LNK4099: 未找到 PDB“gtest.pdb”(使用“gtest.lib(gtest-all.obj)”或在“H:\libbase\base\Release\gtest.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+
+    3 个警告
+    0 个错误
+
+已用时间 00:00:03.98

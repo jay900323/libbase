@@ -28,3 +28,13 @@
 [2019-12-18 09:42:35] [main.cc:137] INFO  asdfghj
 [2019-12-18 09:42:35] [main.cc:138] ERROR 231231
 [2019-12-18 09:42:35] [main.cc:139] FATAL 231231
+[2020-05-12 16:14:34] [H:\libbase\tests\main.cc:135] DEBUG dasdsadasczx
+[2020-05-12 16:14:34] [H:\libbase\tests\main.cc:136] WARN  ghhgfhfg
+[2020-05-12 16:14:34] [H:\libbase\tests\main.cc:137] INFO  asdfghj
+[2020-05-12 16:14:34] [H:\libbase\tests\main.cc:138] ERROR 231231
+[2020-05-12 16:14:34] [H:\libbase\tests\main.cc:139] FATAL 231231
+[2020-05-12 16:15:09] [H:\libbase\tests\main.cc:135] DEBUG dasdsadasczx
+[2020-05-12 16:15:09] [H:\libbase\tests\main.cc:136] WARN  ghhgfhfg
+[2020-05-12 16:15:09] [H:\libbase\tests\main.cc:137] INFO  asdfghj
+[2020-05-12 16:15:09] [H:\libbase\tests\main.cc:138] ERROR 231231
+[2020-05-12 16:15:09] [H:\libbase\tests\main.cc:139] FATAL 231231
